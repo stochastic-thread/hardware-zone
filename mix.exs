@@ -4,7 +4,7 @@ defmodule HardwareZone.Mixfile do
   def project do
     [ app: :hardware_zone,
       version: "0.0.1",
-      elixir: "~> 1.0.0-rc1",
+      elixir: "~> 1.1.0-dev",
       elixirc_paths: ["lib", "web"],
       deps: deps ]
   end
@@ -29,7 +29,7 @@ defmodule HardwareZone.Mixfile do
       {:postgrex, "~> 0.5"},
       {:ecto, "~> 0.2.0"},
       {:plug, "~> 0.7"},
-      {:mogrify, "~> 0.1"}
+      {:mogrify, "~> 0.1.0"}
     ]
   end
 end
